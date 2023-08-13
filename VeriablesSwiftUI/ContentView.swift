@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var name = "You Know Who I Am!"
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+            Text(name)
+                .font(.largeTitle)
+                .padding()
+            
+            Button(action: {
+                self.name = "Changed!"
+            }, label: {
+                Text("Change the name!")
+            })
+            
+            TextField("Test", text: self.$name)
+                .frame(width: UIScreen.main.bounds.width * 0.8, height: 50, alignment: .center)
+                .multilineTextAlignment(.center)
+                .background(Color.black)
+                .foregroundColor(Color.green)
+        }.padding()
     }
 }
 

@@ -11,6 +11,11 @@
 		EC221C042A8901D900B0142F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C032A8901D900B0142F /* ContentView.swift */; };
 		EC221C062A8901DA00B0142F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC221C052A8901DA00B0142F /* Assets.xcassets */; };
 		EC221C092A8901DA00B0142F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC221C082A8901DA00B0142F /* Preview Assets.xcassets */; };
+		EC221C102A89088400B0142F /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C0F2A89088400B0142F /* FirstView.swift */; };
+		EC221C122A89088D00B0142F /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C112A89088D00B0142F /* SecondView.swift */; };
+		EC221C142A89101F00B0142F /* YapilacakModeli.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C132A89101F00B0142F /* YapilacakModeli.swift */; };
+		EC221C162A89121700B0142F /* YapilacakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C152A89121700B0142F /* YapilacakView.swift */; };
+		EC221C182A89169500B0142F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C172A89169500B0142F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		EC221C032A8901D900B0142F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC221C052A8901DA00B0142F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC221C082A8901DA00B0142F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC221C0F2A89088400B0142F /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		EC221C112A89088D00B0142F /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		EC221C132A89101F00B0142F /* YapilacakModeli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapilacakModeli.swift; sourceTree = "<group>"; };
+		EC221C152A89121700B0142F /* YapilacakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapilacakView.swift; sourceTree = "<group>"; };
+		EC221C172A89169500B0142F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				EC221C012A8901D900B0142F /* VeriablesSwiftUIApp.swift */,
 				EC221C032A8901D900B0142F /* ContentView.swift */,
+				EC221C0F2A89088400B0142F /* FirstView.swift */,
+				EC221C112A89088D00B0142F /* SecondView.swift */,
 				EC221C052A8901DA00B0142F /* Assets.xcassets */,
 				EC221C072A8901DA00B0142F /* Preview Content */,
+				EC221C132A89101F00B0142F /* YapilacakModeli.swift */,
+				EC221C152A89121700B0142F /* YapilacakView.swift */,
+				EC221C172A89169500B0142F /* DetailView.swift */,
 			);
 			path = VeriablesSwiftUI;
 			sourceTree = "<group>";
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC221C142A89101F00B0142F /* YapilacakModeli.swift in Sources */,
 				EC221C042A8901D900B0142F /* ContentView.swift in Sources */,
+				EC221C162A89121700B0142F /* YapilacakView.swift in Sources */,
+				EC221C182A89169500B0142F /* DetailView.swift in Sources */,
+				EC221C102A89088400B0142F /* FirstView.swift in Sources */,
+				EC221C122A89088D00B0142F /* SecondView.swift in Sources */,
 				EC221C022A8901D900B0142F /* VeriablesSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
