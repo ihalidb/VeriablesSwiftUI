@@ -11,9 +11,9 @@ struct YapilacakView: View {
     var body: some View {
         NavigationView {
         List(yapilacakDizisi) { yapilacak in
-            NavigationLink(destination: DetailView()) {
+            NavigationLink(destination: DetailView(selectedDo: yapilacak), label: {
                 Text(yapilacak.isim)
-            }
+            })
             }.navigationTitle(Text("Yapılacaklar"))
             
         }

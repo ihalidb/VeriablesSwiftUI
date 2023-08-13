@@ -16,6 +16,7 @@
 		EC221C142A89101F00B0142F /* YapilacakModeli.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C132A89101F00B0142F /* YapilacakModeli.swift */; };
 		EC221C162A89121700B0142F /* YapilacakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C152A89121700B0142F /* YapilacakView.swift */; };
 		EC221C182A89169500B0142F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C172A89169500B0142F /* DetailView.swift */; };
+		EC221C1A2A891AE300B0142F /* DoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC221C192A891AE300B0142F /* DoButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EC221C132A89101F00B0142F /* YapilacakModeli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapilacakModeli.swift; sourceTree = "<group>"; };
 		EC221C152A89121700B0142F /* YapilacakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapilacakView.swift; sourceTree = "<group>"; };
 		EC221C172A89169500B0142F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EC221C192A891AE300B0142F /* DoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +67,12 @@
 				EC221C032A8901D900B0142F /* ContentView.swift */,
 				EC221C0F2A89088400B0142F /* FirstView.swift */,
 				EC221C112A89088D00B0142F /* SecondView.swift */,
-				EC221C052A8901DA00B0142F /* Assets.xcassets */,
-				EC221C072A8901DA00B0142F /* Preview Content */,
 				EC221C132A89101F00B0142F /* YapilacakModeli.swift */,
 				EC221C152A89121700B0142F /* YapilacakView.swift */,
 				EC221C172A89169500B0142F /* DetailView.swift */,
+				EC221C052A8901DA00B0142F /* Assets.xcassets */,
+				EC221C072A8901DA00B0142F /* Preview Content */,
+				EC221C192A891AE300B0142F /* DoButton.swift */,
 			);
 			path = VeriablesSwiftUI;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC221C1A2A891AE300B0142F /* DoButton.swift in Sources */,
 				EC221C142A89101F00B0142F /* YapilacakModeli.swift in Sources */,
 				EC221C042A8901D900B0142F /* ContentView.swift in Sources */,
 				EC221C162A89121700B0142F /* YapilacakView.swift in Sources */,

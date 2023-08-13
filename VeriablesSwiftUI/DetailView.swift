@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct DetailView: View {
+    
+    var selectedDo : YapilacakModeli
+    @State var yapildi = false
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct DetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        DetailView()
+        VStack {
+            Text(selectedDo.isim)
+                .font(.largeTitle)
+                .bold()
+                .padding()
+                .foregroundColor(self.yapildi ? .green : .black)
+            
+            Text(selectedDo.tanim)
+                .font(.title)
+                .padding()
+            DoButton(done: $yapildi)
+        }
     }
 }
